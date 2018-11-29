@@ -1,11 +1,11 @@
 # Dotfiles
 
-[These dotfiles](https://github.com/alberon/dotfiles) are a fork of [Dave's](https://github.com/davejamesmiller/dotfiles), suitable for use on shared accounts.
+[These dotfiles](https://github.com/alberon/dotfiles) are for use on shared Alberon accounts. You can also fork them to make your own copy.
 
 ## How to fork it
 
 - Fork the repo on GitHub
-- Ask Dave to add you to the [`djm.me/cfg`](https://djm.me/cfg) script
+- Add yourself to the setup script - [`alberon.uk/cfg`](https://alberon.uk/cfg) (edit it directly on the web server)
 - Install as normal
 - Put your public key in `~/.ssh/<name>.pub` (e.g. `~/.ssh/dave.pub`)
 - Uncomment `IdentityFile` and `IdentitiesOnly` in `~/.ssh/config`
@@ -29,7 +29,7 @@ To update your fork with the latest changes:
 git pull alberon master
 ```
 
-If there are any conficts, fix them any conflicts, add the files (`g a <filename>`) and commit (`g ci`).
+If there are any conficts, fix them conflicts, add the files (`g a <filename>`) and commit (`g ci`), then push (`g p`).
 
 ## Installing
 
@@ -77,7 +77,7 @@ Close and re-open Cygwin Terminal to reload the configuration. (**Note:** When t
 Then run this to install some additional useful packages:
 
 ```bash
-apt-cyg install bash-completion bind-utils curl dos2unix git-completion less links ncurses tmux tree whois
+apt-cyg install bash-completion bind-utils curl dos2unix git-completion inetutils less links ncurses tmux tree whois
 ```
 
 ### Installing on Git for Windows (formerly mSysGit):
