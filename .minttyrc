@@ -14,3 +14,7 @@ Locale=en_GB
 Charset=UTF-8
 PgUpDnScroll=yes
 BackgroundColour=32,32,32
+
+# Make dark blue readable
+Blue=59,72,227
+BoldBlue=125,135,236
