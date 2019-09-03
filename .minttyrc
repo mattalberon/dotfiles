@@ -12,5 +12,5 @@ BoldAsColour=yes
 AllowBlinking=no
 Locale=en_GB
 Charset=UTF-8
-PgUpDnScroll=no
+PgUpDnScroll=yes
 BackgroundColour=32,32,32
