@@ -4,7 +4,7 @@ CursorType=block
 RightClickAction=paste
 Term=xterm-256color
 ConfirmExit=no
-Scrollbar=none
+Scrollbar=right
 FontHeight=12
 FontIsBold=no
 FontSmoothing=default
@@ -14,7 +14,6 @@ Locale=en_GB
 Charset=UTF-8
 PgUpDnScroll=yes
 BackgroundColour=32,32,32
-
 # Make dark blue readable
 Blue=59,72,227
 BoldBlue=125,135,236
